@@ -1,0 +1,24 @@
+{
+  "name": "cnsl",
+  "version": "0.0.1",
+  "description": "color log",
+  "main": "./dist/index.js",
+  "types": ".npm/dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitbbln/cnsl.git"
+  },
+  "keywords": [],
+  "author": "bbln",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitbbln/cnsl/issues"
+  },
+  "homepage": "https://github.com/gitbbln/cnsl#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}

@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var index_1 = require("../src/index");
+var cnsl = new index_1.Cnsl();
+var arr1 = 'a,b,c'.split(",");
+var obj = cnsl.ao(arr1);
+var cursor = cnsl.cursor;
+var log = cnsl.log;
+var loc = cnsl.loc;
+loc("", 1, 1, '-G_R Y W', 'Андрей', 'test', 'cnsl');
+loc("", 1, 2, '', 'Андрей', 'test', 'cnsl');
